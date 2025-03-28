@@ -1,0 +1,100 @@
+/* Update container styling */
+.update_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #e7e7e7;
+}
+
+.update_form_area {
+  display: flex;
+  flex-direction: column;
+  background-color: #D4E6F1;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border: 2px solid #3C4F76;
+  border-radius: 20px;
+  box-shadow: 3px 4px 0px 1px #A5A5E6;
+}
+
+.update_title {
+  color: #3C4F76;
+  font-weight: 900;
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Form group styling */
+.form_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form_label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #3C4F76;
+}
+
+/* Input and select styling */
+.form_style {
+  outline: none;
+  border: 2px solid #3C4F76;
+  box-shadow: 3px 4px 0px 1px #A5A5E6;
+  width: 90%;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: #F2F6FB;
+}
+
+.form_style:focus {
+  transform: translateY(4px);
+  box-shadow: 1px 2px 0px 0px #A5A5E6;
+}
+
+select.form_style {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 1em;
+}
+
+/* Image preview styling */
+.image_preview {
+  margin-top: 10px;
+  border: 2px solid #3C4F76;
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Button styling */
+.submit_btn {
+  padding: 15px;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 15px;
+  background: #5F6CAF;
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0px 0px #A5A5E6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.submit_btn:hover {
+  opacity: 0.9;
+  transform: translateY(2px);
+  box-shadow: 1px 2px 0px 0px #A5A5E6;
+}

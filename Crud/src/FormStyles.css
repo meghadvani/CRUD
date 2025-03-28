@@ -1,0 +1,112 @@
+/* Form container styling */
+.form_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.form_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #D9E7F6;  /* Lighter blue background */
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border: 2px solid #3C4A61;  /* Darker border color */
+  border-radius: 20px;
+  box-shadow: 3px 4px 0px 1px #B2C8F9;  /* Lighter shadow color */
+}
+
+.form_title {
+  color: #3C4A61;  /* Dark blue text color */
+  font-weight: 900;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form_group {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 15px 0;
+  width: 100%;
+}
+
+.form_label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #3C4A61;  /* Dark blue label color */
+}
+
+/* Input field styling */
+.form_style {
+  outline: none;
+  border: 2px solid #3C4A61;  /* Darker border for input fields */
+  box-shadow: 3px 4px 0px 1px #B2C8F9;  /* Lighter shadow for input fields */
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: #F4F9FF;  /* Lighter background for inputs */
+}
+
+.form_style:focus {
+  transform: translateY(4px);
+  box-shadow: 1px 2px 0px 0px #B2C8F9;  /* Light blue focus shadow */
+}
+
+/* Checkbox and radio styling */
+.hobbies_container, .gender_container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.checkbox_group, .radio_group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.checkbox_style, .radio_style {
+  accent-color: #6A7DFF;  /* Lighter blue accent color */
+  width: 16px;
+  height: 16px;
+}
+
+/* Image preview styling */
+.image_preview {
+  margin-top: 10px;
+  border: 2px solid #3C4A61;  /* Darker border for image preview */
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Button styling */
+.submit_btn {
+  padding: 15px;
+  margin: 25px 0px;
+  width: 100%;
+  font-size: 15px;
+  background: #6A7DFF;  /* Soft blue button background */
+  border-radius: 10px;
+  font-weight: 800;
+  box-shadow: 3px 3px 0px 0px #A6B9F3;  /* Lighter shadow for button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.submit_btn:hover {
+  opacity: 0.9;
+  transform: translateY(2px);
+  box-shadow: 1px 2px 0px 0px #A6B9F3;  /* Lighter shadow on hover */
+}
